@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about" #this creates an about path
-  get "signin" => "pages#login"
+  get "login" => "pages#login"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
